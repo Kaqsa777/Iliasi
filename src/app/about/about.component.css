@@ -1,0 +1,32 @@
+.contactt{
+    width: 50%;
+    position: absolute;
+    height: 725px;
+    background-color: black;
+    opacity: 0.7;
+    margin-top: 0px;
+}
+.pirvxazi{
+    font-size: 60px;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 90px;
+    position: absolute;
+    margin-top: 120px;
+}
+.dalshe{
+    color: white;
+    width: 400px;
+    margin-left: 120px;
+    margin-top: 190px;
+}
+
+.yaltabandi{
+    display: flex;
+    height: 725px;
+    width: 50%;
+}
+.ravici{
+    width: 100%;
+}

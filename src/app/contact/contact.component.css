@@ -1,0 +1,405 @@
+
+*{
+    letter-spacing: 1.2px;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+html{
+    width: 100%;
+}
+.first{
+    margin-left: -75px;
+}
+.contactt{
+    width: 50%;
+    position: absolute;
+    height: 725px;
+    background-color: black;
+    opacity: 0.7;
+    margin-top: 0px;
+    
+}
+
+
+.yaltabandi{
+   
+    display: flex;
+    height: 725px;
+}
+.topnav {
+    background-color: #201f1f;
+    top: 0px;
+    justify-content: flex-start;
+    display: flex;
+    z-index: 999;
+    width: 100%;
+}
+.topnav a {
+    float: left;
+    color: #9C9696;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    margin-left: 0px;
+    
+}
+.navdiv a:hover{
+    color:white !important;
+} 
+
+.navdiv{
+    margin-left: 300px;
+    color: #9C9696;
+    text-align: center;
+    padding: 29px 12px;
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+.searchbtn:hover{
+    background-color: #000000;
+    border-radius: 15px;
+    transition: 1s;
+    
+}
+.searchbtn{
+    background-color: #201f1f;
+    float: right;
+    padding: 10px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    font-size: 17px;
+    color: white;
+    transition: 1s;
+}
+.thenorthpole{
+    margin-top: 20px;
+    display: flex;
+    margin-left: 30px;
+    font-size: 13px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.the{
+    color: #A29C9C;
+}
+.northpole{
+    color: #EEE6E6;
+}
+.fa-cart-shopping{
+    color: white;
+    font-size: 40px;
+    margin-top: 20px;
+}
+#cart{
+    margin-left: 40px;
+}
+.mainbody{
+    position: relative;
+    text-align: center;
+    background-image: url(https://static.wixstatic.com/media/84770f_93b300330b3742f2b1948ef292a91f27~mv2_d_1920_1279_s_2.png/v1/fill/w_1225,h_1024,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/84770f_93b300330b3742f2b1948ef292a91f27~mv2_d_1920_1279_s_2.png) ;
+    width: 1400px;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}   
+.div2{
+    position: absolute;
+    top: 100px;
+    text-align: center;
+    left: 370px;
+    font-weight: 700;
+}
+.adventure{
+    font-size: 50px;  
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.shopimg{
+    width: 100%;
+}
+.shop1{
+    border-style:solid;
+    border-width: 3px;
+    transition: 0.5s;
+    background-color: transparent;
+    border-color: rgb(255, 255, 255);
+    color: white;
+    padding: 10px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;    
+    border-color:white;
+    margin-left: -50px;
+}
+.shop1:hover{
+    color: black;
+    background-color: white;
+}
+.shop2{
+    margin-left: 200px;
+    background-color: transparent;
+    border-color: white;
+    border-style:solid;
+    border-width: 3px;
+    color: white;
+    padding: 15px 60px;
+    text-align: center;
+    display: inline-block;
+    font-size: 25px;  
+    transition: 0.5s;
+}
+.shop2:hover{
+    color: black;
+    background-color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
+.mainn{
+    display: flex;
+    width: 100%;
+}
+.div3{
+    width: 2000px;
+    background-color: black;
+}
+.div4{
+    width: 150%;
+}
+.imageback{
+    height: 100%;
+    width: 100%;
+}
+.new{
+    color: white;
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 250px;
+}
+.pack1{
+   width: 33.33%;
+}
+.pack2{
+    width: 33.4%;
+}
+.pack3{
+    width: 33.33%;
+}
+.pack11{
+    width: 100%;
+}
+.pack22{
+    width: 100%;
+}
+.pack33{
+    width: 100%;
+}
+.backpacks1{
+    display: flex;
+    position: relative;
+   
+    
+}
+.sale{
+    background-color: rgb(35, 35, 35);
+    width: auto;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    
+}
+.sale1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.sale2{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.fa-arrow-down{
+    color: white;
+    position: relative;
+    top: 200px;
+    font-size: 40px;
+    right: 140px;
+}
+.backpacks2{
+    display: flex;
+    margin-left: 110px;
+    gap: 20px;
+   
+}
+.canvas{
+    text-align: center;
+}
+.canvas2{
+    display: flex;
+    margin-left: 100px;
+}
+.canvasback{
+    color: white;
+    font-size: 30px;
+}
+.test1{
+    right: 70px;
+    width: 70px;
+    height: 2px;
+    background-color: white;
+    position: relative;
+    bottom: -14px;
+}
+.dollar{
+    font-size: 20px;
+    color: white;
+}
+.technical{
+    text-align: center;
+}
+.technical2{
+    margin-left: 90px;
+}
+.technicalback{
+    color: white;
+    font-size: 30px;
+}
+.camo{
+    text-align: center;
+}
+.camoback{
+    color: white;
+    font-size: 30px;
+}
+.technical2{
+    display: flex;
+}
+.camo2{
+    display: flex;
+    margin-left: 100px;
+}
+.test2{
+    right: 85px;
+    width: 90px;
+    height: 2px;
+    background-color: white;
+    position: relative;
+    bottom: -14px;
+}
+.test3{
+    right: 70px;
+    width: 70px;
+    height: 2px;
+    background-color: white;
+    position: relative;
+    bottom: -14px;
+}
+.pirvxazi{
+    font-size: 60px;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 90px;
+    position: absolute;
+    margin-top: 120px;
+}
+
+.dalshe{
+    color: white;
+    width: 400px;
+    margin-left: 120px;
+    margin-top: 190px;
+}
+.bolo{
+    background-color:#000000;
+    color: white;
+    justify-content: end;
+    padding-right: 120px;
+    width: 100%;
+    height: 900px;
+}
+.yvelaa{
+    font-size: 30px;
+    margin-left: 560px;
+    margin-top: 100px;
+    position: absolute;
+}
+.names{
+    display: flex;
+    gap: 10px;
+    
+}
+input{
+    height: 50px;
+    width: 200px;
+    background-color: #000000;
+    border: solid;
+    border-color: white;
+    font-size: 17px;
+    color: white;
+    transition: 1s;
+}
+.input1{
+    height: 150px;
+    width: 425px;
+    display: block;
+    
+}
+.meoree{
+    width: 425px;
+    
+}
+
+.pirvelii{
+    width: 425px;
+
+}
+.send{
+    background-color: #000000;
+    color: white;
+    border: solid;
+    border-color: white;
+    height: 50px;
+    width: 175px;
+    margin-top: 15px;
+    margin-left: 250px;
+    font-size: 25px;
+    transition: 0.5s;
+}
+.send:hover{
+    background-color: white;
+    transition: 0.5s;
+    color: black;
+
+}
+.teqsti{
+    position: absolute;
+    width: 400px;
+    margin-left: 900px;
+    margin-top: 250px;
+    color: white;
+    display: flex;
+}
+.upirvelesi{
+    position: absolute;
+    margin-left: 900px;
+    margin-top: 200px;
+    font-size: 50px;
+}
+.umeoresi{
+    position: absolute; 
+    font-size: 30px;
+}
+
+.ssm{
+    position: absolute;
+    margin-top: 250px;
+    font-size: 20px;
+}

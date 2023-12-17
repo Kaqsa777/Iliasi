@@ -1,0 +1,78 @@
+html{
+    width: 100%;
+}
+.topnav {
+    background-color: #201f1f;
+    top: 10px;
+    justify-content: flex-start;
+    display: flex;
+    z-index: 999;
+}
+.topnav a {
+    float: left;
+    color: #9C9696;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    margin-left: 0px
+    
+}
+.navdiv a:hover{
+    color:white !important;
+    transition: 0.5s;
+} 
+
+.navdiv{
+    margin-left: 200px;
+    color: #9C9696;
+    text-align: center;
+    padding: 29px 12px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.searchbtn:hover{
+    background-color: #000000;
+    border-radius: 15px;
+    transition: 1s;
+    
+}
+.searchbtn{
+    background-color: #201f1f;
+    float: right;
+    padding: 10px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    font-size: 17px;
+    color: white;
+    transition: 1s;
+}
+.thenorthpole{
+    margin-top: 33px;
+    display: flex;
+    margin-left: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    
+}
+.the{
+    color: #A29C9C;
+    font-size: 30px;
+}
+.northpole{
+    color: #f1f1f1;
+    font-size: 30px;
+}
+.fa-cart-shopping{
+    color: white;
+    font-size: 40px;
+    margin-top: 20px;
+}
+#cart{
+    margin-left: 40px;
+}
+
+a{
+    transition: 0.5s;
+}

@@ -1,0 +1,16 @@
+<div class="yvela">
+  <div class="new-arrivals">
+    <h1 class="texti">
+        NEW ARRIVALS
+    </h1>
+    <div class="limiteed">
+      <div *ngFor="let data of infoblock" class="card" style="width: 30rem;">
+       <img class="card-img-top" [src]="data.images[0].source" alt="Card image cap">
+       <div class="card-body">
+         <h5 class="card-title">{{data.name}}</h5>
+         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+         <a href="#"> <button> Go somewhere </button></a>
+       </div>
+     </div>
+      </div>
+</div>
